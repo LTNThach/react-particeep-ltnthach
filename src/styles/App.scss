@@ -1,0 +1,22 @@
+.App {
+  padding: 2rem;
+
+  &__ListMovies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  &__Pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+    &__Dropdown {
+      position: absolute;
+      left: 0;
+    }
+  }
+}
