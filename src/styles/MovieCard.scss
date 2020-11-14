@@ -1,0 +1,26 @@
+.MovieCard {
+  width: 500px;
+  margin: 0 2rem 1rem 0;
+  
+  &__ButtonGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__Button {
+    margin-right: 0.5rem;
+    cursor: pointer;
+  
+    &__Container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 0.5rem;
+    }
+  
+    &--Delete {
+      margin-left: auto;
+    }
+  }
+}
